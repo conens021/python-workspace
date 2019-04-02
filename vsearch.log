@@ -1,0 +1,2 @@
+request: <Request 'http://localhost:5000/search4' [POST]> response: ['c', 'y']
+request: <Request 'http://localhost:5000/search4' [POST]> response: ['f', 'y']

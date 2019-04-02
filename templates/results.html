@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{page_title}}</h2>
+
+<section class="form-result-container">
+    <p>You submited following data: <br/>
+        <span>Phrase: {{phrase}}</span><br />
+        <span>Letters: {{letters}}</span>
+    </p>
+
+
+    <p>When "{{phrase}}" is searched for "{{letters}}", the followin results are find:</p>
+
+    <h3>{{results}}</h3>
+
+</section>
+
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{page_title}}</h2>
+
+<section class="form-container">
+    <form id="form" method="POST" action="/search4">
+        <p>Uset this form to submit a search request</p>
+        <label>Phrase </label>
+        <input type="text" name="phrase" placeholder="type some phrase here">
+        <label>Letters </label>
+        <input type="text" name="letters" placeholder="type letters you want to find in given phrase">
+        <p>When you redy click Do'it to send requst to server</p>
+        <button type="submit">Do'it</button>
+    </form>
+</section>
+
+{% endblock %}
