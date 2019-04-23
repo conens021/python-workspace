@@ -1,0 +1,16 @@
+table{
+   width: 60%;
+   margin: auto;
+   border-collapse: collapse;
+   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+table td,th{
+    padding: 12px;
+}
+
+table th{
+    background: #2ecc71;
+    color :#fff;
+  text-align: left;  
+}

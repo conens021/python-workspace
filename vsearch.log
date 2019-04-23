@@ -1,2 +1,2 @@
-request: <Request 'http://localhost:5000/search4' [POST]> response: ['c', 'y']
-request: <Request 'http://localhost:5000/search4' [POST]> response: ['f', 'y']
+ImmutableMultiDict([('phrase', 'far kraj'), ('letters', 'fqwrtxzy')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0|['f', 'r']
+ImmutableMultiDict([('phrase', 'vagabundo'), ('letters', 'fqwrtxzy')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0|[]
